@@ -1,1 +1,2 @@
 # Guess-the-number
+I made a simple and fun 2-player guessing game using JavaScript. The computer creates a random 4-digit secret code, and both players try to guess it by entering 4 numbers. After each guess, the game shows how many numbers were correct and in the right spot. The results show up on the screen so players can see how they did each round. The first person to guess all 4 numbers correctly wins, and a popup message appears to announce the winner.
