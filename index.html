@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0" />
+    <title>4-Digit Guessing Game</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+
+  <body>
+    <h1>4-Digit Guessing Game</h1>
+    <p id="secretText">Secret number is generated (hidden)</p>
+    <div class="container">
+      <div class="player">
+        <h2>Player 1</h2>
+
+        <div class="inputs">
+          <input id="p1_1" type="number" />
+          <input id="p1_2" type="number" />
+          <input id="p1_3" type="number" />
+          <input id="p1_4" type="number" />
+        </div>
+
+        <button onclick="player1()">Submit</button>
+        <p id="p1_result">Matches: 0</p>
+      </div>
+
+      <div class="player">
+        <h2>Player 2</h2>
+        <div class="inputs">
+          <input id="p2_1" type="number" />
+          <input id="p2_2" type="number" />
+          <input id="p2_3" type="number" />
+          <input id="p2_4" type="number" />
+        </div>
+        <button onclick="player2()">Submit</button>
+        <p id="p2_result">Matches: 0</p>
+      </div>
+    </div>
+
+    <div id="output"></div>
+  </body>
+</html>
